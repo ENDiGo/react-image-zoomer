@@ -4,12 +4,12 @@
 1. clone this repository
 
 ## How to use
-``
+```es6
 import ImageZoomer from 'react-image-zoomer';
 ``
 <br/>...
 <br/>...<br/>
-``
+```es6
 class Product extends React.Component {
   render(){
     return
