@@ -6,7 +6,7 @@
 ## How to use
 ```es6
 import ImageZoomer from 'react-image-zoomer';
-``
+```
 <br/>...
 <br/>...<br/>
 ```es6
@@ -18,7 +18,7 @@ class Product extends React.Component {
         zoomSrc='path/to/big-image'/>
   }
 }
-``
+```
 
 ## Properties
 
