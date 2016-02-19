@@ -1,7 +1,9 @@
 # React Image Zoomer/Magnifier Component
 
 ## Install
-1. clone this repository
+``
+npm install react-image-zoomer
+``
 
 ## How to use
 ```es6
