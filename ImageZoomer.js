@@ -32,6 +32,10 @@ class ImageZoomer extends Component {
         let width = this.refs.zoomImage.width,
             height = this.refs.zoomImage.height;
 
+        if(width == 0)
+            width = this.props.zoomSize;
+        if(height == 0)
+            height = this.props.zoomSize;
         
         zoomStyle = Object.assign({}, zoomStyle, { width: width, height: height});
 
@@ -95,11 +99,13 @@ ImageZoomer.propTypes = {
     alt: PropTypes.string,
     onZoomIn: PropTypes.func,
     onZoomOut: PropTypes.func,
+    zoomSize: PropTypes.number  
 }
 
 ImageZoomer.defaultProps = {
     onZoomIn: function(){},
     onZoomOut: function(){},
+    zoomSize: 1000
 }
 
 
